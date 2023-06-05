@@ -1,0 +1,13 @@
+version: '3'
+services:
+  openfire:
+    image: occisor/openfire:4.7.5
+    container_name: openfire-server
+    ports:
+      - 9090:9090
+      - 9091:9091
+      - 5222:5222
+      - 7777:7777
+      - 5269:5269
+
+    restart: unless-stopped
