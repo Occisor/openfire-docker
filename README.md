@@ -12,5 +12,5 @@ docker build -t occisor/openfire:4.7.5 .
 ```
 docker compose up
 ```
-After installing the container, follow the link http://you.server:9090, where `you.server` should be changed to the name or ip of your server.
-At your discretion. Make sure it's working properly. Stop the docker compose `stop container`. To run in the background, use `docker compose start`.
+After installing the container, follow the link http://you.server:9090, where `you.server` should be changed to the name or ip of your server and perform the initial setup.
+At your discretion stop the container `docker compose stop`, to run in the background, use `docker compose start`.
